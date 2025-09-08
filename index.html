@@ -3,44 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Nigeria</h1>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Nigeria</h1>
+          <p>
+            Monday 11:35, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>🌤️ 12°C</div>
+      </main>
+      <footer>
         <p>
-          Monday 11:35, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
+          This project was coded by
+          <a href="https://github.com/Mary-rowolo" target="_blank"
+            >Mary Arowolo</a
+          >
+          is
+          <a
+            href="https://github.com/Mary-rowolo/Weather-Search-Application"
+            target="_blank"
+          >
+            open-sourced on GitHub</a
+          >
+          and
+          <a
+            href="https://weathersearchapplication1.netlify.app/"
+            target="_blank"
+            >hosted on Netlify</a
+          >
         </p>
-      </div>
-      <div>🌤️ 12°C</div>
-    </main>
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/Mary-rowolo" target="_blank"
-          >Mary Arowolo</a
-        >
-        is
-        <a
-          href="https://github.com/Mary-rowolo/Weather-Search-Application"
-          target="_blank"
-        >
-          open-sourced on GitHub</a
-        >
-        and
-        <a href="https://weathersearchapplication1.netlify.app/" target="_blank"
-          >hosted on Netlify</a
-        >
-      </p>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
