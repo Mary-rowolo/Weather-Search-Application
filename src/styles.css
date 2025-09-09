@@ -23,12 +23,14 @@ header {
 }
 
 .search-form-input {
-  background-color: #ecd9d9;
+  background-color: #f06992;
   border: none;
   border-radius: 6px;
   width: 80%;
   padding: 15px 20px;
   font-size: 16px;
+  font-weight: bold;
+  color: #0f0e0e;
 }
 
 .search-form-button {
